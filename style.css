@@ -1,0 +1,58 @@
+.card {
+	border: solid;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	width: auto;
+	border-radius: 5px;
+}
+.image-round {
+	border-radius: 50%;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+
+h4 {
+	margin: 5px;
+}
+p {
+	text-align: center;
+}
+img {
+	display: block;
+	margin: 10px;
+}
+.container {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+.card:hover {
+	box-shadow: 10px 5px 5px black;
+	color: black;
+	background: rgb(53, 178, 82);
+}
+.li_image {
+	height: 20px;
+	margin: 5px;
+}
+li {
+	border: solid;
+	border-radius: 5px;
+	display: flex;
+	margin: 10px;
+	align-items: center;
+}
+ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	width: auto;
+}
